@@ -1,0 +1,91 @@
+
+.container {
+    
+    flex-direction: column;
+    gap: 8px;
+    background-image: linear-gradient(
+        295deg,
+        hsl(0deg 0% 92%) 0%,
+        hsl(282deg 65% 85%) 25%,
+        hsl(280deg 86% 77%) 50%,
+        hsl(279deg 96% 68%) 75%,
+        hsl(281deg 100% 50%) 100%
+    );
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+.innerBox {
+    width: 520px;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.685);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+.container label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #313131;
+}
+.containe input {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 10px 15px;
+    color: black;
+}
+.container input:hover {
+    border-color: #ccc;
+}
+.container input:focus {
+    border-color: #9900ff;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #ff3300;
+    text-align: center;
+}
+.footer button {
+    outline: none;
+    border: none;
+    background-color: #9900ff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100px;
+    transition: 100ms;
+    cursor: pointer;
+}
+.footer button:disabled {
+    background-color: gray !important;
+}
+.footer button:hover {
+    background-color: #aa2aff;
+}
+.footer p {
+    font-weight: 700;
+    color: black;
+}
+.footer p span a {
+    font-weight: bold;
+    color: #9900ff;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.heading {
+    font-weight: bold;
+}

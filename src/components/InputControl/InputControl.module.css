@@ -1,0 +1,21 @@
+.label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    outline: none;
+    width: 100%;
+    margin: 10px;
+}
+.conainer input:hover {
+    border-color: #ccc;
+}
+.conainer input:focus {
+    border-color: #9900ff;
+}
